@@ -68,8 +68,10 @@ public class Senha {
         boolean minuscula = false;
 
         for(int i = 0; i < verificaMinusculas.length; i++){
-            minuscula = true;
-            break;
+            if(pass.contains(verificaMinusculas[i])){
+                minuscula = true;
+                break;
+            }
         }
 
         if(minuscula == false){
