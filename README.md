@@ -22,7 +22,7 @@ O programa "Asterisco" pede um número ao usuário, que ao ser executado exibe e
 O programa "Senha" segue os requisitos pedidos na questão, com as verificações especificadas. Ao entrar com uma senha que contenha menos de 6 caracteres, a senha não é criada.
 Foi implementado também todas as verificações pedidas a seguir:
 
-Possui no mínimo 6 caracteres.
+Possui no mínimo 6 caracteres.\n
 Contém no mínimo 1 digito.
 Contém no mínimo 1 letra em minúsculo.
 Contém no mínimo 1 letra em maiúsculo.
