@@ -26,6 +26,7 @@ Possui no mínimo 6 caracteres.
 Contém no mínimo 1 digito.
 Contém no mínimo 1 letra em minúsculo.
 Contém no mínimo 1 letra em maiúsculo.
-Contém no mínimo 1 caractere especial. Os caracteres especiais são: !@#$%^&*()-+
+Contém no mínimo 1 caractere especial.
+Os caracteres especiais são: !@#$%^&*()-+
 
 A questçao 3 nçao tive tempo de concluir infelizmente ainda.
