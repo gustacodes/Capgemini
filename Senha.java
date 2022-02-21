@@ -11,7 +11,8 @@ public class Senha {
         //Verifica o tamanho da senha
 
         if(contaSenha < 6){
-            System.out.println("A senha deve conter mais de 6 caracteres.");
+            contaSenha = 6 - contaSenha;
+            System.out.println(contaSenha);
         }
 
         //Verifica se há números na senha informada
@@ -26,10 +27,6 @@ public class Senha {
             }
         }
 
-        if(numeros == false){
-            System.out.println("Digite pelo menos um numero.");
-        }
-
         //Verifica se há caracteres especiais
 
         String [] verificaCaracteres = {"!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "-", "+"};
@@ -40,10 +37,6 @@ public class Senha {
                 caracter = true;
                 break;
             }
-        }
-
-        if(caracter == false){
-            System.out.println("Digite pelo menos um dos caracteres especiais: !@#$%^&*()-+");
         }
 
         //Verifica se digitou alguma letra maiúscula
@@ -58,10 +51,6 @@ public class Senha {
             }
         }
 
-        if(maiuscula == false){
-            System.out.println("Digite pelo menos uma letra maiúscula");
-        }
-
         //Verifica se digitou alguma letra minúscula
 
         String [] verificaMinusculas = {"a", "b", "c", "d", "e", "f", "g", "h", "i", "j" , "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"};
@@ -72,14 +61,6 @@ public class Senha {
                 minuscula = true;
                 break;
             }
-        }
-
-        if(minuscula == false){
-            System.out.println("Digite pelo menos uma letra minúscula");
-        }
-
-        if(numeros == true && caracter == true && maiuscula == true && minuscula == true && contaSenha > 6){
-            System.out.println("Senha cadastrada!");
         }
 
     }
