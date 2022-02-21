@@ -29,4 +29,4 @@ Contém no mínimo 1 letra maiúsculo.
 Contém no mínimo 1 caractere especial.
 Os caracteres especiais são: !@#$%^&*()-+
 
-A questçao 3 nçao tive tempo de concluir infelizmente ainda.
+A questão 3 não consegui concluir por completo.
